@@ -1,0 +1,78 @@
+.ques1_div,
+.ques3_div {
+    border: 2px solid blue;
+}
+
+/* Ques 1 CSS start  */
+.rem_demo {
+    font-size: 1rem;
+}
+
+.em_demo {
+    font-size: 1em;
+}
+
+.vh_demo {
+    font-size: 5vh;
+}
+
+.vw_demo {
+    font-size: 5vw;
+}
+
+.px_demo {
+    font-size: 30px;
+}
+
+/* Ques 2 CSS start */
+/* Chaining CSS */
+h4,
+.q1 {
+    color: green;
+}
+
+/* Ques 3 CSS start */
+/* Combinator  */
+
+/* Child Combinator */
+ul>li {
+    font-weight: bold;
+}
+
+/* General sibling combinator */
+h1~p {
+    background-color: orange;
+}
+
+/* Adjacent sibling combinator */
+h1+p {
+    background-color: blue;
+}
+
+/* CSS for ques 4 starts */
+
+.description {
+    margin-left: 30%;
+}
+
+.ques4_div {
+    border: 2px solid blue;
+}
+
+.withOnlyTransition {
+    width: fit-content;
+}
+
+.withOnlyTransition:hover {
+    transform: rotate(90deg);
+}
+
+.withBothTransitionAndTransform {
+    width: fit-content;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.withBothTransitionAndTransform:hover {
+
+    transform: rotate(90deg);
+}
